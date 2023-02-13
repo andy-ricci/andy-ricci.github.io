@@ -1,0 +1,42 @@
+
+body { 
+    background-color: #CCCCFF; /* Purple */
+padding: 10px;
+    padding-left: 50px;
+padding-right: 50px;
+  }
+
+
+
+
+.leftcolumn {   
+  float: left;
+  width: 35%;
+
+
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 65%;
+ margin-top: 10px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+
+  .rightcolumn {
+    width: 100%;
+      
+  }
+.lefttcolumn {
+    width: 100%;
+       
+  }
+}
